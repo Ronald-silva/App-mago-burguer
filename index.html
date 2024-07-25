@@ -9,7 +9,7 @@
     <title>Mago Burger</title>
 </head>
 <body>
-    <header class="w-full h-[420px] bg-zinc-900 bg-home bg-cover bg-center">
+    <header class="w-full h-[420px] bg-home bg-cover bg-center">
         <div class="w-full h-full flex flex-col justify-center items-center">
             <img id="logo" src="img/logo mago burguer.png" alt="logo mago burguer" class="w-32 h-32 rounded-full shadow-lg hover:scale-110 duration-200 mt-5">
             <span class="text-white px-4 font-medium bg-zinc-900 rounded-lg">Rua: Estrada do pici, 474 - Jóquei Clube</span>
@@ -130,7 +130,7 @@
                     <img src="img/sucos.jpg" alt="bebida" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300">
                     <div>
                         <p class="font-bold">Suco natural</p>
-                        <p class="text-sm">Suco de laranja 500ml</p>
+                        <p class="text-sm">Suco de poupa 500ml</p>
                         <div class="flex items-center gap-2 justify-between mt-3">
                             <p class="font-bold text-lg">R$ 8.00</p>
                             <button class="bg-grey-900 px-5 rounded add-to-cart-btn" data-name="Suco Natural" data-price="8.00">
@@ -173,10 +173,12 @@
 
     
     <!-- Botão do Carrinho -->
-    <button id="cart-btn" class="relative absolute top-0 right-0 bg-red-500 text-white text-xs rounded-full w-20 h-20 flex items-center justify-reight">
-        <i class="left-80 fa-solid fa-cart-shopping"></i>
-        <span id="cart-count" class="absolute top-0 right-0 bg-red-500 text-white text-xs rounded-full w-5 h-5 flex items-center justify-center">0</span>
-    </button>
+     <div class="btn flex justify-end m-5  w-full py-3 items-center fixed bottom-0 left-0">
+       <button id="cart-btn" class="relative absolute    bg-red-500 text-white text-xs rounded-full w-20 h-20 flex items-center justify-center mr-10">
+        <i class=" fa-solid fa-cart-shopping"></i>
+        <span id="cart-count" class=" text-white text-xs rounded-full w-5 h-5 ">0</span>
+        </button>
+    </div>
 
 
     <!-- Modal do carrinho -->
