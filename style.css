@@ -5,7 +5,34 @@
 body {
     background-color: #dedada;
 }
-/* Estilo para o indicador de quantidade no ícone do carrinho */
+header {
+    background-image: url(img/img-header.jpeg);
+}
+
+.open {
+    background-color: green;
+    border-radius: 5px;
+    border-radius: 5px;
+    padding: 5px 15px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.closed {
+    background-color: red;
+    border-radius: 5px;
+    padding: 5px 15px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.payment-option {
+    margin-bottom: 10px;
+}
+#change-info {
+    display: none;
+}
+
+
 
 
 
