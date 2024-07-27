@@ -10,6 +10,8 @@
     <style>
         header {
             background-image: url(img/img-header.jpeg);
+            background-size: cover;
+            background-position: center;
         }
         #logo {
             margin-bottom: 30px;
@@ -21,6 +23,12 @@
         #change-info {
             display: none;
         }
+        @media (max-width: 768px) {
+         header {
+        background-image: url('img/img-header.jpeg');
+    }
+}
+
     </style>
 </head>
 <body>
