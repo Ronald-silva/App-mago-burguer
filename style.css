@@ -5,10 +5,6 @@
 body {
     background-color: #dedada;
 }
-header {
-    background-image: url(img/img-header.jpeg);
-}
-
 .open {
     background-color: green;
     border-radius: 5px;
@@ -25,12 +21,6 @@ header {
     margin-top: 10px;
 }
 
-.payment-option {
-    margin-bottom: 10px;
-}
-#change-info {
-    display: none;
-}
 
 
 

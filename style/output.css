@@ -887,6 +887,10 @@ video {
   height: 100%;
 }
 
+.h-64 {
+  height: 16rem;
+}
+
 .w-11\/12 {
   width: 91.666667%;
 }
@@ -2670,10 +2674,6 @@ body {
   background-color: #dedada;
 }
 
-header {
-  background-image: url(img/img-header.jpeg);
-}
-
 .open {
   background-color: green;
   border-radius: 5px;
@@ -2688,14 +2688,6 @@ header {
   padding: 5px 15px;
   font-weight: bold;
   margin-top: 10px;
-}
-
-.payment-option {
-  margin-bottom: 10px;
-}
-
-#change-info {
-  display: none;
 }
 
 @media (min-width: 640px) {
@@ -2778,12 +2770,20 @@ header {
 }
 
 @media (min-width: 640px) {
+  .sm\:h-80 {
+    height: 20rem;
+  }
+
   .sm\:underline {
     text-decoration-line: underline;
   }
 }
 
 @media (min-width: 768px) {
+  .md\:h-96 {
+    height: 24rem;
+  }
+
   .md\:w-1\/2 {
     width: 50%;
   }
@@ -2819,6 +2819,7 @@ header {
     }
   }
 }
+
 
 
 
