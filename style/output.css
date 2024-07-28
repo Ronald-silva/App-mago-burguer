@@ -1944,8 +1944,20 @@ video {
   --tw-bg-opacity: 0.5;
 }
 
-.bg-home {
-  background-image: url('/img/img-header.jpeg');
+.bg-\[url\(\'minha-imagem\.jpg\'\)\] {
+  background-image: url('minha-imagem.jpg');
+}
+
+.bg-\[url\(\'img\'\)\] {
+  background-image: url('img');
+}
+
+.bg-\[url\(\'\'\)\] {
+  background-image: url('');
+}
+
+.bg-\[url\(\'img\/img-header\.jpeg\'\)\] {
+  background-image: url('img/img-header.jpeg');
 }
 
 .decoration-slice {
